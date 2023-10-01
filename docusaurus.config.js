@@ -23,7 +23,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: false,
+          sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
             'https://github.com/WaveShieldDev/documentation',
