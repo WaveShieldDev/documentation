@@ -3,15 +3,16 @@ sidebar_position: 1
 slug: /
 ---
 
-# Welcome
+# Willkommen
 
-Hello, and welcome to the documentation of WaveShield!
-This documentation is a work in progress, so please bear with us as we continue to add and improve content.
+Hallo und Willkommen bei der WaveShield Dokumentation!
+Die Dokumentation ist noch in Arbeit, wir arbeiten stets daran die Dokumentation zu verbessern.
 
-## What is WaveShield?
 
-WaveShield is an anticheat for FiveM that stops hackers from cheating in your server.
+## Was ist WaveShield?
 
-## How to use WaveShield?
+WaveShield ist ein AntiCheat für FiveM, welches Hacker auf ihrem Server stopt.
 
-When you bought a product, you should've received a license key in your mail (the mail you've entered at purchase!)
+## Wie kann man WaveShield benutzen?
+
+Wenn Sie WaveShield gekauft haben sollten Sie einen Lizenzkey per E-Mail zugesendet bekommen (Die Mail die Sie bei dem Kauf angegeben haben!)
