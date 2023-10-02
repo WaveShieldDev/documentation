@@ -11,6 +11,7 @@ Everything under here is outdated, but still can work for you. We're suggesting 
 :::
 
 ---
+
 You will have to replace your event handler function & also the trigger function.
 
 ```jsx title="client.lua"
@@ -20,6 +21,7 @@ TriggerServerEvent("my_awesome_event",999,"test")
 // With this:
 exports["WaveShield"]:TriggerServerEvent("my_awesome_event",999,"test")
 ```
+
 ```jsx title="server.lua"
 // Replace this:
 AddEventHandler("my_awesome_event", function(number, string)
@@ -33,6 +35,7 @@ end)
 ```
 
 You can also secure your client events:
+
 ```jsx title="client.lua"
 // Replace this
 AddEventHandler("esx_ambulancejob:revive", function(...)

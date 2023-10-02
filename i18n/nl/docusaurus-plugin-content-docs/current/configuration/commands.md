@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Commands 
+# Commands
 
 ```
 waveshield install (You shouldn't need to run it, it does automatically)
