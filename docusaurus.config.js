@@ -12,6 +12,15 @@ const config = {
   projectName: 'documentation',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
+  },
 
   presets: [
     [
@@ -20,7 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          sidebarCollapsible: false,
+          sidebarCollapsible: true,
           routeBasePath: '/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -30,7 +39,21 @@ const config = {
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
+        }
+      }),
+    ],
+  ],
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        indexDocs: true,
+        docsRouteBasePath: "/",
+        docsDir: "docs",
+        language: ["en"]
       }),
     ],
   ],
@@ -42,13 +65,17 @@ const config = {
         title: 'WaveShield Documentation',
         logo: {
           alt: 'Waveshield Logo',
-          src: 'img/logo.png',
+          src: 'img/logo.png'
         },
         items: [
           {
             href: 'https://github.com/WaveShieldDev/documentation',
             label: 'GitHub',
-            position: 'right',
+            position: 'right'
+          },
+          {
+            type: 'localeDropdown',
+            position: 'left',
           }
         ],
       },
