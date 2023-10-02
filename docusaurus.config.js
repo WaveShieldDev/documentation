@@ -24,6 +24,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: false,
           routeBasePath: '/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
