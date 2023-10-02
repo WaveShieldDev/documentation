@@ -12,10 +12,6 @@ const config = {
   projectName: 'documentation',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
 
   presets: [
     [
@@ -53,7 +49,7 @@ const config = {
             href: 'https://github.com/WaveShieldDev/documentation',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       prism: {
