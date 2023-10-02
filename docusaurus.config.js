@@ -25,8 +25,10 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           editUrl:
-            'https://github.com/WaveShieldDev/documentation',
+            'https://github.com/WaveShieldDev/documentation/tree/master',
         },
         blog: false,
         theme: {
