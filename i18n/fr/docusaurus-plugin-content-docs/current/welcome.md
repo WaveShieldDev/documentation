@@ -3,13 +3,13 @@ sidebar_position: 1
 slug: /
 ---
 
-# Accueillir
+# Welcome
 
-Bonjour et bienvenue dans la documentation de WaveShield !
-Cette documentation est un travail en cours, alors soyez patient pendant que nous continuons à ajouter et à améliorer le contenu.
+Hello, and welcome to the documentation of WaveShield!
+This documentation is a work in progress, so please bear with us as we continue to add and improve content.
 
-## Qu'est-ce que WaveShield ?
-WaveShield est un anti-triche pour FiveM qui empêche les pirates de tricher sur votre serveur.
+## What is WaveShield?
+WaveShield is an anticheat for FiveM that stops hackers from cheating in your server.
 
-## Comment utiliser WaveShield ?
-Lorsque vous avez acheté un produit, vous devriez avoir reçu une clé de licence dans votre courrier (le courrier que vous avez saisi lors de l'achat !)
+## How to use WaveShield?
+When you bought a product, you should've received a license key in your mail (the mail you've entered at purchase!)
