@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.✅ Getting Started": {
+    "message": "✅ Getting Started",
+    "description": "The label for category ✅ Getting Started in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.🔩 Configuration": {
+    "message": "🔩 Configuration",
+    "description": "The label for category 🔩 Configuration in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.👩‍💻 For Developers": {
+    "message": "👩‍💻 For Developers",
+    "description": "The label for category 👩‍💻 For Developers in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.❓ Common Problems": {
+    "message": "❓ Common Problems",
+    "description": "The label for category ❓ Common Problems in sidebar sidebar"
+  }
+}
