@@ -2,18 +2,18 @@
 sidebar_position: 2
 ---
 
-# Event Handler for Bans
+# Event Handler voor Bans
 
-If you want to use the ban system from WaveShield, in your own scripts/own system, you can follow the code down below.
+Als je de ban systeem van WaveShield wilt gebruiken in je eigen code of scripts, dan kan je de code hieronder volgen.
 
 ```jsx title="/your/folder/banHandlerName.lua"
 // Server side
 AddEventHandler("__WaveShield_internal:playerBanned",function(source, data)
-    // Your Own Function
+    // Je eigen functie
 end)
 
 AddEventHandler("__WaveShield_internal:playerKicked",function(source, data)
-    // Your Own Function
+    // Je eigen functie
 end)
 
 //data = {
@@ -22,7 +22,7 @@ end)
 //    reason = string,
 //    extended = string,
 //    screenshot = string, -- (url)
-//    identifiers = table, -- All player identifiers
-//    expires = number, -- When the ban expires (timestamp)
+//    identifiers = table, -- Alle speler identificaties
+//    expires = number, -- Wanneer de ban verloopt (timestamp)
 //}
 ```

@@ -4,23 +4,23 @@ sidebar_position: 1
 
 # Exports
 
-These are the current exports supported by WaveShield.
+Dit zijn de momentele exports die worden ondersteund door WaveShield.
 
 ```jsx title="/your/folder/banFileName.lua"
-// From the client side
+// Van de client side
 exports["WaveShield"]:banPlayer(reason, extended, duration)
 
-// From the server side
-// @source: The player source(Server ID)
-// @extended: Additional details to the ban.
-// @duration: The ban duration in seconds.
+// Van de server side
+// @source: De player ID van de server(Server ID)
+// @extended: Extra details voor de ban.
+// @duration: Ban tijd in seconden.
 exports["WaveShield"]:banPlayer(source, reason, extended, "Main", duration)
 ```
 
 ```jsx title="/your/folder/unbanFileName.lua"
-// From the server side
-// @banId: The Ban ID to unban
-// @reason: Unban reason (Optional)
-// @from: Who unbanned him? (Optional)
+// Van de server side
+// @banId: De Ban ID om te unbannen
+// @reason: Unban reden (optineel)
+// @from: Wie heeft hem geunband? (optineel)
 exports["WaveShield"]:unbanPlayer(banId, reason, from)
 ```

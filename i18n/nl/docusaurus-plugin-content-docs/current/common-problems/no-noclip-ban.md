@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# No Noclip Ban
+# Geen NoClip ban
 
-You won't receive a ban when enabling features like no clip or anything else that WaveShield detects. This is normal because you cannot be banned for using functionalities provided by your own scripts. WaveShield is designed to ban only cheaters.
+U ontvangt geen ban als u functies inschakelt zoals no clip of iets anders dat WaveShield detecteert. Dit is normaal omdat u niet kunt worden gebanned voor het gebruik van functies die door uw eigen scripts worden geleverd. WaveShield is gemaakt om cheaters tegen te gaan

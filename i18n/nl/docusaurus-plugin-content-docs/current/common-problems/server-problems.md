@@ -4,26 +4,26 @@ sidebar_position: 2
 
 # Server Problems
 
-If your server crashes without any notification from WaveShield, it is not caused by WaveShield itself. It is likely another script that is preventing WaveShield from loading a file from the script's manifest. This is commonly seen in paid scripts that are designed to block attempts that might be considered cracking or violations of the terms of service.
+Als uw server crasht zonder enige melding van WaveShield, wordt dit niet veroorzaakt door WaveShield zelf. Het is waarschijnlijk een ander script dat voorkomt dat WaveShield een bestand uit het manifest van het script laadt. Dit komt vaak voor bij betaalde scripts die zijn ontworpen om pogingen te blokkeren die als cracking of schending van de servicevoorwaarden kunnen worden beschouwd.
 
 ```
 "ScriptsToSkipInstallation": ["esx_helloWorld", "an_other_script"]
 ```
 
-Then you need to manually go in the `fxmanifest.lua`` of the script that is crashing your server and remove the following line
+Dan moet je handmatig de volgende lijn van de `fxmanifest.lua` van de script die crasht uw server verwijderen:
 
 ```
 shared_script '@WaveShield/resource/waveshield.lua'
 ```
 
-Scripts that should be added to this list are as follows:
-Please note that we have already attempted to contact these services, but they have chosen to disregard our messages. We cannot be held responsible for any issues that may arise as a result of using them..
+Scripts die aan deze lijst moeten worden toegevoegd zijn de volgende:
+We hebben al geprobeerd contact op te nemen met deze services, maar ze hebben ervoor gekozen onze berichten te negeren. We kunnen niet verantwoordelijk worden gehouden voor problemen die kunnen ontstaan als gevolg van het gebruik van deze services.
 
 - dnz Scripts
 - Webservices Scripts
 - ModFreakz Scripts
-- A script that goes by the name of "<strong>advanced_vehicles</strong>"
+- Een script die bij de naam gaat van "<strong>advanced_vehicles</strong>"
 
 :::caution
-By adding scripts here, it may be possible that you have some false bans depending if the script use some features that we detect. Only add scripts that won't work otherwise!
+Door scripts hier toe te voegen, is het mogelijk dat je een aantal false bans krijgt, afhankelijk van of het script bepaalde functies gebruikt die wij detecteren. Voeg alleen scripts toe die anders niet werken!
 :::

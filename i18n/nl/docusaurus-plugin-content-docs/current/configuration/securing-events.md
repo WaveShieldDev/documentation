@@ -2,52 +2,51 @@
 sidebar_position: 2
 ---
 
-# Securing events
+# Beveiligen van events
 
 :::tip
-Everything under here is outdated, but still can work for you. We're suggesting to use the "<strong>AI Anti Trigger Server Events [BETA]</strong> in the panel.
-
+Alles hieronder is niet meer up-to date, maar het kan nog steeds werken voor jou. We raden je aan om de "<strong>AI Anti Trigger Server Events [BETA]</strong> in de panel te gebruiken.<br/>
 ![image](img/aitrigger.png)
 :::
 
 ---
 
-You will have to replace your event handler function & also the trigger function.
+Je zal ook je event handler functie & de trigger functie vervangen.
 
 ```jsx title="client.lua"
-// Replace this:
+// Vervang dit:
 TriggerServerEvent("my_awesome_event",999,"test")
 
-// With this:
+// Met dit:
 exports["WaveShield"]:TriggerServerEvent("my_awesome_event",999,"test")
 ```
 
 ```jsx title="server.lua"
-// Replace this:
+// Vervang dit:
 AddEventHandler("my_awesome_event", function(number, string)
     print(number, string)
 end)
 
-// With this:
+// Met dit:
 exports["WaveShield"]:AddEventHandler("my_awesome_event", function(source, number, string)
     print(number, string)
 end)
 ```
 
-You can also secure your client events:
+Je kan ook de client events beveiligen:
 
 ```jsx title="client.lua"
-// Replace this
+// Vervang dit:
 AddEventHandler("esx_ambulancejob:revive", function(...)
 end)
 
-// With this
+// Met dit:
 exports["WaveShield"]:AddEventHandler("esx_ambulancejob:revive", function(...)
 end)
 ```
 
 :::info
-When you secure an event you also need to remove his register function. (RegisterServerEvent or RegisterNetEvent)
+Wanneer je een event beveiligd dan zal je ook de register functie moeten verwijderen (RegisterServerEvent of RegisterNetEvent).
 
-We recommand only to secure those that are exploitable (giving advantage, money, weapon, vehicles etc)
+We raden aan alleen de events te beveiligen die exploitabel zijn. (geld, wapens, voertuigen, en andere dingen.)
 :::

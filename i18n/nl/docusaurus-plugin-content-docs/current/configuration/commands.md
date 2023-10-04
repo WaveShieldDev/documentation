@@ -5,7 +5,7 @@ sidebar_position: 3
 # Commands
 
 ```
-waveshield install (You shouldn't need to run it, it does automatically)
+waveshield install (Normaal niet nodig, standaard gebeurt dit automatisch)
 waveshield uninstall
 
 waveshield baninfo <banId>
@@ -13,9 +13,9 @@ waveshield ban <serverId> <optional:reason>
 waveshield unban <banId> <optional:reason>
 waveshield unban all
 
-waveshield reload (Reload the server config files without restarting the server)
+waveshield reload (Herlaad alle config files van de panel zonder te server te restarten)
 waveshield clear <peds/vehicles/objects/all>
 
-waveshield exportbans (export bans to a .json file)
-waveshield migratebans (migrate v3 bans to v4, set your newbans.json file inside the WaveShield folder)
+waveshield exportbans (Exporteer bans naar een .json bestand)
+waveshield migratebans (Migreer v3 bans naar v4, zet de newbans.json bestand in de WaveShield map)
 ```

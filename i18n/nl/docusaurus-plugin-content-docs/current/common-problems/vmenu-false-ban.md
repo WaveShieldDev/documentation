@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# False bans with vMenu
+# False bans met vMenu
 
-You get banned when you are using vMenu?
+Word je verbannen als je het vMenu gebruikt?
 
-- Rename your script "vMenu"
-- Disable features that WaveShield detects and vMenu use while WaveShield isn't able to make C# scripts compatible with its detections.
+- Noem het script "vMenu"
+- Functies uitschakelen die WaveShield detecteert en vMenu gebruiken terwijl WaveShield niet in staat is om C#-scripts compatibel te maken met zijn detecties.

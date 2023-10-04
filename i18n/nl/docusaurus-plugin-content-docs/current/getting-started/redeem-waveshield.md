@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Redeem WaveShield
+# WaveShield activeren
 
-Redeeming WaveShield is very easy. After your purchase, you will receive an email with a unique license key that you can use to redeem your WaveShield.
+Het activeren van WaveShield is heel makkelijk. Na je aankoop, zal je een email ontvangen met een unieke licentie sleutel dat je kan gebruiken om WaveShield te activeren.
 
 ![Redeem Gif](img/redeem.gif)
 
 :::note
-When you have followed these steps you can start the installation.
+Wanneer je deze stappen heb gevolgd kan je beginnen met de installatie.
 :::
