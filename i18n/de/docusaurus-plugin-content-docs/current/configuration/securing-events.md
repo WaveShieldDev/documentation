@@ -49,5 +49,5 @@ end)
 :::info
 When you secure an event you also need to remove his register function. (RegisterServerEvent or RegisterNetEvent)
 
-We recommand only to secure those that are exploitable (giving advantage, money, weapon, vehicles etc)
+We recommend only to secure those that are exploitable (giving advantage, money, weapon, vehicles etc)
 :::
