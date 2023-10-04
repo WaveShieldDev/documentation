@@ -2,10 +2,10 @@
 sidebar_position: 3
 ---
 
-# WaveShield not starting
+# WaveShield ne démmare pas
 
-If you experience this issue, it is because you didn't started WaveShield at <strong>the top</strong> of your resources in your `server.cfg`
+Si vous rencontrez ce problème, c'est parce que vous n'avez pas start WaveShield en <strong>premier<strong> dans vôtre `server.cfg` ou `resource.cfg`
 
 :::note
-You must start it with `ensure WaveShield` and not `ensure [folderName]`.
+Vous devez start <strong>obligatoirement<strong> WaveShield de cette facon: `ensure WaveShield` et non `ensure [folderName]`.
 :::
