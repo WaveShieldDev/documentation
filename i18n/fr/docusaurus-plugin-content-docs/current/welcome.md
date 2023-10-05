@@ -10,9 +10,9 @@ Cette documentation est en progression; soyez patient avec nous pendant que nous
 
 ##Qu'est ce que  WaveShield ?
 
-WaveShield est un anticheat concu pour FiveM permétant de stopper tout type de cheat, WaveShield est en constante amélioration pour vous permettre une protection robuste et fiable dans le temps !
+WaveShield est un anticheat concu pour FiveM permettant de stopper tout types de cheats, WaveShield est en constante amélioration pour vous permettre une protection robuste et fiable dans le temps !
 
 ## Comment utiliser et activer WaveShield?
 
 
-Quand vous achetez nôtre anticheat, vous allez recevoir une liscence par mail (celui utilisé lors de vôtre achat); il ne vous restera plus qu'a claim cette dernière directement depuis vôtre pannel de gestion et de configuration ! ( https://cloud.waveshield.xyz )
+Quand vous achetez nôtre anticheat, vous allez recevoir une licence par e-mail (celui utilisé lors de vôtre achat); il ne vous restera plus qu'à claim cette dernière directement depuis votre panel de gestion et de configuration ! ( https://cloud.waveshield.xyz )
