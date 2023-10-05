@@ -2,28 +2,30 @@
 sidebar_position: 2
 ---
 
-# Server Problems
+# Problèmes serveur
 
-If your server crashes without any notification from WaveShield, it is not caused by WaveShield itself. It is likely another script that is preventing WaveShield from loading a file from the script's manifest. This is commonly seen in paid scripts that are designed to block attempts that might be considered cracking or violations of the terms of service.
+Si votre serveur crash sans la moindre notification de WaveShield, cela n'est pas a cause de WaveShield. Il s'agit probablement d'un autre script qui empêche WaveShield de charger un fichier à partir du fxmanifest du script.
+Ceci est généralement observé dans les scripts payants conçus pour bloquer les tentatives qui pourraient être considérées comme du piratage ou des violations des conditions de service.
 
 ```
 "ScriptsToSkipInstallation": ["esx_helloWorld", "an_other_script"]
 ```
 
-Then you need to manually go in the `fxmanifest.lua`` of the script that is crashing your server and remove the following line
+Ensuite, vous devez aller manuellement dans le `fxmanifest.lua`` du script qui fait crash votre serveur et supprimer la ligne suivante
 
 ```
 shared_script '@WaveShield/resource/waveshield.lua'
 ```
 
-Scripts that should be added to this list are as follows:
-Please note that we have already attempted to contact these services, but they have chosen to disregard our messages. We cannot be held responsible for any issues that may arise as a result of using them..
+
+Les scripts incompatibles avec WaveShield sont les suivants :
+Veuillez noter que nous avons déjà tenté de contacter ces services, mais ils ont choisi d'ignorer nos messages. Nous ne pouvons être tenus responsables des problèmes pouvant survenir suite à leur utilisation.
 
 - dnz Scripts
 - Webservices Scripts
 - ModFreakz Scripts
-- A script that goes by the name of "<strong>advanced_vehicles</strong>"
+- Un script portant le nom "<strong>advanced_vehicles</strong>"
 
 :::caution
-By adding scripts here, it may be possible that you have some false bans depending if the script use some features that we detect. Only add scripts that won't work otherwise!
+En enlevant WaveShield des scripts incompatible avec la méthode ci-dessus, il se peut que vous rencontriez des problèmes de fake bans; ajoutez uniquement les scripts qui ne peuvent pas fonctionner avec WaveShield !
 :::
