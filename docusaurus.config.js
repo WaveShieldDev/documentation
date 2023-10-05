@@ -33,8 +33,8 @@ const config = {
           routeBasePath: '/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/WaveShieldDev/documentation/tree/master',
+          editUrl: 'https://github.com/WaveShieldDev/documentation/tree/master',
+          editLocalizedFiles: true,      
         },
         blog: false,
         theme: {
