@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Attempted to trigger an event
 
-If you encounter this erroneous ban, it may be due to the presence of code that overrides the TriggerServerEvent function. This code could potentially serve as an event protection system, for instance.
+Wenn Sie auf diesen fehlerhaften Ban stoßen, kann dies auf das Vorhandensein von Code zurückzuführen sein, der die Funktion TriggerServerEvent außer Kraft setzt. Dieser Code könnte z. B. als AntiTriggerEvent dienen.
 
 ```jsx title="script.lua"
 TriggerServerEvent = function(eventName, ...)
@@ -13,4 +13,4 @@ TriggerServerEvent = function(eventName, ...)
 end;
 ```
 
-For instance, this code overwrites the TriggerServerEvent function and can result in false bans because it doesn't return the old function value; instead, it invokes it.
+Dieser Code überschreibt zum Beispiel die Funktion TriggerServerEvent und kann zu falschen Bans führen, da er nicht den alten Funktionswert zurückgibt, sondern ihn aufruft.
