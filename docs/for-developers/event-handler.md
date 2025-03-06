@@ -9,20 +9,24 @@ If you want to use the ban system from WaveShield, in your own scripts/own syste
 ```jsx title="/your/folder/banHandlerName.lua"
 // Server side
 AddEventHandler("__WaveShield_internal:playerBanned",function(source, data)
-    // Your Own Function
+    // your function
 end)
 
 AddEventHandler("__WaveShield_internal:playerKicked",function(source, data)
-    // Your Own Function
+    // your function
 end)
 
-//data = {
-//    id = string -- ban id
+AddEventHandler("__WaveShield_internal:playerUnbanned", function(banId, data, unbanReason, from)
+    // your function
+end)
+
+// data = {
+//     id = string -- ban id
 //    name = string,
-//    reason = string,
+//     reason = string,
 //    extended = string,
 //    screenshot = string, -- (url)
-//    identifiers = table, -- All player identifiers
-//    expires = number, -- When the ban expires (timestamp)
+//    identifiers = table, -- all player identifiers
+//    expires = number, -- when the ban expires (timestamp)
 //}
 ```

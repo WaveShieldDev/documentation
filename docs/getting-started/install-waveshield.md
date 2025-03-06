@@ -4,11 +4,19 @@ sidebar_position: 2
 
 # Install WaveShield
 
-Installing WaveShield is very easy. After you have redeemed your license key, you can download WaveShield in our [panel](https://cloud.waveshield.xyz/).
-When downloaded you have to put your the folder in your server.
+:::warning
+Before we begin, we recommend using any version of FiveM artifacts above **12882**.  
+Earlier versions may restrict the use of certain anticheat features.
+:::
 
-<iframe width="959" height="600" src="https://www.youtube-nocookie.com/embed/jf0njjYG6c0?si=a7erBZgWXlKUV0Rl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+We've developed a very simple, fast, and efficient installation process that requires minimal effort so that you can benefit from all the features of this anti-cheat.
 
-:::caution
-You are not allowed to change the folder name. Keep the name as it is. If you change the name, you will not be able to use your license key.
+We've provided a **2-minute tutorial** explaining how to install WaveShield perfectly. If you don't understand anything, don't hesitate to contact our support team.
+
+<iframe width="959" height="600" src="https://www.youtube-nocookie.com/embed/jf0njjYG6c0?si=hjzYxRXmMvJZi2J2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+:::caution[Common Problems Encountered]
+- ❌ You **can't rename the script**; it must be called **"WaveShield"**.
+- 🚀 You need to **start the WaveShield resource first** in your `server.cfg`, before any of your other resources.
+- 📂 Place the **WaveShield folder** in `/resources` and **not in a subfolder**.
 :::
