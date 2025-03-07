@@ -16,26 +16,6 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    [
-      "@orama/plugin-docusaurus-v3",
-      {
-        searchbox: {
-          placeholder: "Search...",
-        },
-        searchButton: {
-          text: "Click here to search...",
-        },
-        plugins: {
-          analytics: {
-            enabled: true,
-            apiKey: process.env.ORAMA_ANALYTICS_API_KEY,
-            indexId: process.env.ORAMA_ANALYTICS_INDEX_ID,
-          },
-        },
-      },
-    ],
-  ],
   presets: [
     [
       "classic",
@@ -95,6 +75,20 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} WaveShield Anticheat`,
+      },
+      algolia: {
+        appId: 'HUCXUUWS2A',
+        apiKey: 'b8cdceee78f0afb5b049359cdb9409c3',
+        indexName: 'waveshield-justinnn',
+        contextualSearch: true,
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        replaceSearchResultPathname: {
+          from: '/docs/',
+          to: '/',
+        },
+        searchParameters: {},
+        searchPagePath: 'search',
+        insights: true,
       },
       prism: {
         theme: prismThemes.github,
