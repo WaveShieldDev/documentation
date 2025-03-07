@@ -16,5 +16,5 @@ So please, **DON'T ADD ANYTHING THERE UNLESS YOUR SCRIPT IS NOT STARTING**.
 Only add scripts to the ignore list **if they are NOT STARTING** when WaveShield is installed into it. Script errors are never due to WaveShield; only ignore your scripts if they are not starting.
 :::
 :::tip
-There are little tooltips above every feature on the configuration page so you can know what the option does or find any information about it if you don't know their use.
+There are little tooltips ![Tooltip](img/tooltip.jpg) above every feature on the configuration page so you can know what the option does or find any information about it if you don't know their use.
 :::

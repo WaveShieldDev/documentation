@@ -1,10 +1,10 @@
 # Black Screen, 'awaiting scripts' or errors
 
-If you experience a black screen, an infinite "Awaiting Scripts" message, or errors after installing WaveShield, **you did not start WaveShield at the top of your `server.cfg` file**.  
+If you experience a black screen, an infinite "Awaiting Scripts" message, or errors after installing WaveShield, **you did not start WaveShield at the top of your `server.cfg` file**.
 
-WaveShield **must** be the first resource loaded to function properly.  
+WaveShield **must** be the first resource loaded to function properly.
 
-Ensure your `server.cfg` includes the following in the correct order:  
+Ensure your `server.cfg` includes the following in the correct order:
 
 ```cfg title="server.cfg"
 ensure WaveShield

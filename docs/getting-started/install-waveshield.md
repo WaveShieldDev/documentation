@@ -16,7 +16,8 @@ We've provided a **2-minute tutorial** explaining how to install WaveShield perf
 <iframe width="959" height="600" src="https://www.youtube-nocookie.com/embed/jf0njjYG6c0?si=hjzYxRXmMvJZi2J2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 :::caution[Common Problems Encountered]
+
 - ❌ You **can't rename the script**; it must be called **"WaveShield"**.
 - 🚀 You need to **start the WaveShield resource first** in your `server.cfg`, before any of your other resources.
 - 📂 Place the **WaveShield folder** in `/resources` and **not in a subfolder**.
-:::
+  :::

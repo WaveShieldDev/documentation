@@ -1,21 +1,20 @@
-require('dotenv').config();
-import {themes as prismThemes} from 'prism-react-renderer';
-
+require("dotenv").config();
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WaveShield Documentation',
-  tagline: 'The documentation to help your anticheat.',
-  favicon: 'img/favicon.ico',
-  url: 'https://docs.waveshield.xyz/',
-  baseUrl: '/',
-  organizationName: 'WaveShieldDev',
-  projectName: 'documentation',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  title: "WaveShield Documentation",
+  tagline: "The documentation to help your anticheat.",
+  favicon: "img/favicon.ico",
+  url: "https://docs.waveshield.xyz/",
+  baseUrl: "/",
+  organizationName: "WaveShieldDev",
+  projectName: "documentation",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
   plugins: [
     [
@@ -39,17 +38,17 @@ const config = {
   ],
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/',
+          sidebarPath: "./sidebars.js",
+          routeBasePath: "/",
           editUrl:
-            'https://github.com/WaveShieldDev/documentation/blob/master/',
+            "https://github.com/WaveShieldDev/documentation/blob/master/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -58,39 +57,39 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/logo.png',
+      image: "img/logo.png",
       navbar: {
-        title: 'WaveShield Documentation',
+        title: "WaveShield Documentation",
         logo: {
-          alt: 'WaveShield Logo',
-          src: 'img/logo.png',
+          alt: "WaveShield Logo",
+          src: "img/logo.png",
         },
       },
       footer: {
         links: [
           {
-            title: 'Links',
+            title: "Links",
             items: [
               {
-                label: 'Discord',
-                href: 'https://discord.gg/waveshield',
+                label: "Discord",
+                href: "https://discord.gg/waveshield",
               },
               {
-                label: 'Website',
-                href: 'https://waveshield.xyz',
+                label: "Website",
+                href: "https://waveshield.xyz",
               },
               {
-                label: 'Web Panel',
-                href: 'https://cloud.waveshield.xyz',
+                label: "Web Panel",
+                href: "https://cloud.waveshield.xyz",
               },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/WaveShieldDev/documentation',
+                label: "GitHub",
+                href: "https://github.com/WaveShieldDev/documentation",
               },
             ],
           },
@@ -100,7 +99,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      }
+      },
     }),
 };
 
