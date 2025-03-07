@@ -38,10 +38,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/WaveShieldDev/documentation/',
+            'https://github.com/WaveShieldDev/documentation/blob/master/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -95,7 +93,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
+      }
     }),
 };
 

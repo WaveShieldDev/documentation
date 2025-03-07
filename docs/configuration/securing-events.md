@@ -5,7 +5,7 @@ sidebar_position: 2
 # Securing events
 
 :::tip
-Everything under here is outdated, but still can work for you. We're suggesting to use the "<strong>AI Anti Trigger Server Events [BETA]</strong> in the panel.
+Everything under here is outdated, but still can work for you. We're suggesting to use the "<strong>AI Anti Trigger Server Events</strong>" in the panel.
 
 ![image](img/aitrigger.png)
 :::
