@@ -1,5 +1,4 @@
 require("dotenv").config();
-import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -45,6 +44,10 @@ const config = {
           src: "img/logo.png",
         },
       },
+      colorMode: {
+        disableSwitch: true, 
+        defaultMode: 'dark',
+      },
       footer: {
         links: [
           {
@@ -74,7 +77,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WaveShield Anticheat`,
+        copyright: `Copyright © ${new Date().getFullYear()} WaveShield`,
       },
       algolia: {
         appId: 'HUCXUUWS2A',
@@ -89,10 +92,6 @@ const config = {
         searchParameters: {},
         searchPagePath: 'search',
         insights: true,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
       },
     }),
 };
